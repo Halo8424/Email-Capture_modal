@@ -59,7 +59,7 @@ window.onload = function () {
   //    Event listners
 
   emailInput.addEventListener("click", () => {
-    removeEmailErrorMsg();
+    removeEmailErrorMsg(); 
   });
 
   emailBtn.addEventListener("click", () => {

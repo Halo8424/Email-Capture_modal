@@ -65,6 +65,7 @@ window.onload = function () {
   emailBtn.addEventListener("click", () => {
     if (checkForValidEmail(emailInput.value)) {
       showThankYouMsg();
+      console.log(emailInput.value)
       autoCloseThankYouMsg();
     } else {
       showEmailErrorMsg();
